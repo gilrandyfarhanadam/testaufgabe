@@ -76,6 +76,7 @@ export default function Result() {
             {/* CONTENT ROW */}
             {questions ? (
                 <Row>
+                    {/* access the filtered question */}
                     {filteredQuestions.map((item:any) => {
                         return (
                             <>
